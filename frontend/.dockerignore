@@ -1,0 +1,10 @@
+dist
+Dockerfile
+node_modules
+
+.git
+.vite
+.gitignore
+.dockerignore
+
+*.log
