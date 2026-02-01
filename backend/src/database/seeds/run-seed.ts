@@ -11,9 +11,9 @@ const dataSource = new DataSource({
   type: 'postgres',
   host: process.env.DB_HOST || 'localhost',
   port: parseInt(process.env.DB_PORT || '5432'),
-  username: process.env.DB_USER || 'rbac_user',
-  password: process.env.DB_PASSWORD || 'rbac_password',
-  database: process.env.DB_NAME || 'rbac_db',
+  username: process.env.POSTGRES_USER || 'rbac',
+  password: process.env.POSTGRES_PASSWORD || 'rbac',
+  database: process.env.POSTGRES_DB || 'rbac',
   entities: [Permission, Role, User, Team, Project, Task, Document, AuditLog],
   synchronize: true,
 });
