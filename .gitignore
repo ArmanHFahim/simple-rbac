@@ -1,0 +1,11 @@
+# Frontend
+frontend/.env
+frontend/.next/
+frontend/node_modules/
+frontend/tsconfig.tsbuildinfo
+frontend/next-env.d.ts
+
+# Backend
+backend/.env
+backend/dist/
+backend/node_modules/
